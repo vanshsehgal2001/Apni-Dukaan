@@ -1,0 +1,53 @@
+.update-order-form {
+  margin: auto;
+  padding: 2vmax;
+  background-color: white;
+}
+
+.update-order-form > h1 {
+  width: fit-content;
+  margin-top: 10rem;
+}
+
+.confirm-shipping-details > h1 {
+  width: 50%;
+}
+
+.update-order-form > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.update-order-form > div > select {
+  padding: 1vmax 4vmax;
+  margin: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font-size: 0.9vmax;
+  outline: none;
+  font-weight: bold;
+}
+
+.update-order-form > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+@media screen and (max-width: 600px) {
+  .update-order-form {
+    padding: 5vmax;
+  }
+
+  .update-order-form > div > select {
+    padding: 2.5vmax 5vmax;
+    font-size: 1.7vmax;
+  }
+
+  .update-order-form > div > svg {
+    font-size: 2.8vmax;
+  }
+}

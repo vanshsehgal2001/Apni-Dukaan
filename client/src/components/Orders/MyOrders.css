@@ -1,0 +1,86 @@
+.my-orders-container {
+  width: 100vw;
+  max-width: 100%;
+  padding: 0 7vmax;
+  box-sizing: border-box;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.my-orders-container > h1 {
+  text-align: center;
+  padding: 0.5vmax;
+  box-sizing: border-box;
+  color: black;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  transition: all 0.5s;
+  width: fit-content;
+  margin: 2rem auto;
+}
+
+.my-orders {
+  background-color: rgb(239, 235, 235);
+}
+
+.my-orders div {
+  border: none;
+  font-weight: bold;
+  /* color: black; */
+  margin-top: 0;
+}
+
+.my-orders a {
+  color: rgba(0, 0, 0, 0.527);
+  transition: all 0.5s;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.my-orders a:hover {
+  transform: translateX(10px);
+}
+
+.MuiDataGrid-columnHeader {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1vmax !important;
+}
+
+.MuiDataGrid-columnHeader div {
+  color: rgb(255, 255, 255);
+}
+
+.MuiDataGrid-iconSeparator {
+  display: none !important;
+}
+
+@media screen and (max-width: 600px) {
+  .my-orders-container {
+    padding: 0;
+    height: 93vh;
+  }
+
+  .my-orders-container > h1 {
+    padding: 4vw;
+  }
+
+  .MuiDataGrid-columnHeader {
+    padding: 20px !important;
+  }
+
+  .MuiDataGrid-columnHeader div {
+    font-size: 15px !important;
+  }
+}
+
+.green-color {
+  color: green;
+}
+
+.red-color {
+  color: red;
+}

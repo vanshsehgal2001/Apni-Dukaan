@@ -1,0 +1,17 @@
+.about-container {
+  display: flex;
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+  background-color: rgb(28, 20, 20);
+  color: wheat;
+}
+
+.about-container > div > img {
+  height: 70%;
+  width: 60%;
+  margin-top: 2rem;
+  padding: 4rem;
+}

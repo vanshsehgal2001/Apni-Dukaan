@@ -1,0 +1,16 @@
+.stepper-container {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  margin-top: 30px;
+  max-width: 100%;
+}
+
+.MuiStepConnector-line {
+  display: none !important;
+}
+
+.MuiStepConnector-root {
+  height: 1px;
+  background-color: black;
+}

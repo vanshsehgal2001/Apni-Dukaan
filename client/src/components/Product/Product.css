@@ -1,0 +1,271 @@
+.product-card {
+  width: 100vw;
+  max-width: 100%;
+  padding: 6vmax;
+  box-sizing: border-box;
+  display: flex;
+  min-height: 100vh;
+}
+
+.product-card > .product-image-slider,
+.product-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2vmax;
+  /* border: 2px solid black; */
+}
+
+.product-card > .product-info {
+  align-items: flex-start;
+}
+
+.section-1 > h2 {
+  color: black;
+  font-size: 2rem;
+}
+
+.section-1 > p {
+  color: lightslategrey;
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 1rem;
+}
+
+.subsection {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.subsection > .subsection-1 {
+  display: flex;
+  gap: 10px;
+}
+
+.subsection > .subsection-1 > button {
+  border: none;
+  background: black;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+}
+
+.subsection > .subsection-1 > button:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.subsection > .subsection-1 > input {
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.subsection > .add-to-cart {
+  border: none;
+  padding: 1vmax;
+  background-color: rgb(215, 138, 37);
+  /* border-radius: 2rem; */
+  font-weight: bolder;
+  width: 100%;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+}
+
+.subsection > .add-to-cart:hover {
+  background-color: rgb(185, 109, 9);
+}
+
+p > b {
+  font-size: 20px;
+}
+
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.section-4 > p {
+  font-weight: 400;
+  margin-bottom: 2rem;
+  margin-top: 0.4rem;
+}
+
+.add-review-button {
+  border: none;
+  padding: 1vmax;
+  background-color: rgb(81, 140, 196);
+  /* border-radius: 2rem; */
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all 400ms ease-in-out;
+  width: 20%;
+  /* color: white; */
+}
+
+.add-review-button:hover {
+  background-color: rgb(32, 101, 167);
+}
+
+.section-3 > h2 {
+  margin: 1.4rem 0;
+  letter-spacing: 1px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  width: fit-content;
+  padding: 5px;
+  font-size: 1.8rem;
+}
+
+.reviews-heading {
+  color: black;
+  font-size: 2rem;
+  padding: 1vmax;
+  margin: auto;
+  margin-bottom: 4vmax;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  width: fit-content;
+}
+
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+/* 526 */
+.review {
+  flex: none;
+  box-shadow: 0 0 5px black;
+  border: 1px solid gray;
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+  padding: 3vmax;
+}
+
+.review > img {
+  width: 5vmax;
+}
+
+.review > p {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.review > span {
+  font-size: 0.9rem;
+  margin-top: 1vmax;
+}
+
+.no-reviews {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.add-review-dialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 250px;
+}
+
+.dialog-title {
+  margin: auto;
+  text-align: center;
+}
+
+.dialog-buttons {
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+  .reviews {
+    display: flex;
+    overflow: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .product-card {
+    flex-direction: column;
+    height: unset;
+    width: 100vw;
+  }
+
+  .product-card > div:last-child {
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .section-1 > h2 {
+    font-size: 4vmax;
+    text-align: center;
+  }
+
+  .subsection > .subsection-1 > button {
+    width: 40px;
+    height: 40px;
+  }
+
+  .subsection > .add-to-cart {
+    padding: 2vmax;
+  }
+
+  .section-3 {
+    align-items: center;
+  }
+
+  .section-1 > p {
+    text-align: center;
+    font-size: 2vmax;
+  }
+
+  .section-2 {
+    justify-content: center;
+  }
+  .section-2 > span {
+    font-size: 2vmax;
+  }
+
+  .section-4 > p {
+    text-align: center;
+  }
+
+  .add-review-button {
+    width: 40%;
+    padding: 0.6rem;
+  }
+}

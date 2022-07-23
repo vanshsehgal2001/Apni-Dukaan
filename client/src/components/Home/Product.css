@@ -1,0 +1,53 @@
+.product {
+  width: 25vmax;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  margin: 2vmax;
+  transition: all 400ms ease-in-out;
+  padding-bottom: 0.5vmax;
+  font-size: 1.4vmax;
+}
+
+.product > img {
+  width: 25vmax;
+}
+
+.product > div {
+  margin: 0.5vmax;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product > div > span {
+  margin: 0.5vmax;
+  font-size: 1.1rem;
+}
+
+.product > p {
+  font-size: 1rem;
+  margin: 1vmax 0.5vmax;
+  margin-bottom: 0;
+}
+
+.product span {
+  margin: 0.5vmax 0.5vmax;
+  color: tomato;
+  font-size: 1rem;
+}
+
+.product:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: scale3d(1.06, 1.06, 1.06);
+}
+
+#container {
+  display: flex;
+  margin: 2vmax auto;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}

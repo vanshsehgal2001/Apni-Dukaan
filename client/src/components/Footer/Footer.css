@@ -1,0 +1,45 @@
+footer {
+  margin-top: 10vmax;
+  padding: 2vmax;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.left-footer {
+  width: 60%;
+  text-align: center;
+  /* margin-top: 30px; */
+}
+
+.left-footer h1 {
+  font-size: 2.4rem;
+  margin-bottom: 50px;
+}
+
+.left-footer p {
+  max-width: 80%;
+  margin: 1vmax auto;
+  font-size: 20px;
+}
+
+.right-footer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.right-footer > h4 {
+  font-size: 1.4rem;
+  margin-bottom: 2vmax;
+}
+
+.right-footer > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: lightgray;
+  margin-bottom: 5px;
+}

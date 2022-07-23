@@ -1,0 +1,200 @@
+.confirm-order-container {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+}
+
+.confirm-details > h1 {
+  margin: auto;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 1rem;
+  width: fit-content;
+}
+
+.confirm-order-container > div:last-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+
+.confirm-details {
+  padding: 5vmax;
+  padding-bottom: 0%;
+}
+
+.confirm-user-details,
+.confirm-cart {
+  margin: 2vmax;
+}
+
+.confirm-user-details > div {
+  display: flex;
+  margin: 1vmax 0;
+  align-items: center;
+}
+
+.confirm-user-details > div > p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.confirm-user-details > div > span {
+  margin: 0 1vmax;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: grey;
+}
+
+.confirm-cart-container {
+  padding: 5vmax;
+  padding-top: 2vmax;
+}
+
+.confirm-cart-container > h1 {
+  margin: auto;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 1rem;
+  width: fit-content;
+}
+
+.confirm-cart {
+  max-height: 20vmax;
+  overflow-y: auto;
+}
+
+.confirm-cart > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2vmax 0;
+}
+
+.confirm-cart > div > img {
+  width: 5vmax;
+}
+
+.confirm-cart > div > a {
+  margin: 0 2vmax;
+  width: 60%;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.confirm-cart > div > span {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.order-summary {
+  padding: 7vmax;
+}
+
+.order-summary > h1 {
+  margin: auto;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 1rem;
+  width: fit-content;
+}
+
+.order-summary > div > div {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vmax 0;
+  font-weight: bold;
+}
+.order-summary > div > div > span {
+  color: grey;
+}
+
+.grand-total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(0, 0, 0, 0.247);
+  padding: 2vmax 0;
+}
+
+.order-summary > button {
+  margin: auto;
+  width: 100%;
+  font-weight: bold;
+  color: orange;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1rem;
+  transition: all 200ms ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.grand-total > span {
+  color: grey;
+  font-weight: bold;
+}
+
+.order-summary > button:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .confirm-order-container {
+    grid-template-columns: 1fr;
+    height: unset;
+  }
+
+  .confirm-order-container > div:last-child {
+    border-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.247);
+  }
+
+  .confirm-details > h1 {
+    margin-top: 20px;
+  }
+
+  .confirm-user-details > div {
+    display: flex;
+    margin: 6vw 0;
+  }
+
+  .confirm-cart-container > h1 {
+    margin-top: 20px;
+  }
+
+  .confirm-cart {
+    max-height: 50vw;
+  }
+
+  .confirm-cart > div {
+    margin: 4vw 0;
+  }
+
+  .confirm-cart > div > img {
+    width: 10vw;
+  }
+
+  .confirm-cart > div > a {
+    margin: 0;
+    width: 30%;
+  }
+
+  .order-summary {
+    padding: 12vw;
+  }
+
+  .order-summary > p {
+    padding: 4vw;
+  }
+
+  .grand-total {
+    padding: 5vw 0;
+  }
+
+  .order-summary > button {
+    padding: 4vw;
+    margin: 4vw auto;
+  }
+}

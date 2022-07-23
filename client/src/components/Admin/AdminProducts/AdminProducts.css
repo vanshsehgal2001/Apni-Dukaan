@@ -1,0 +1,60 @@
+.admin-products-container {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.admin-products-container > h1 {
+  font-size: 2rem;
+  padding: 0.5vmax;
+  box-sizing: border-box;
+  transition: all 0.5s;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 1rem;
+  width: fit-content;
+  margin: 2rem auto;
+}
+
+.admin-products-table {
+  background-color: white;
+  border: none !important;
+  width: 90%;
+  margin: auto;
+}
+
+.admin-products-table div {
+  font-size: 1vmax;
+  border: none !important;
+  font-weight: bold;
+}
+
+.admin-products-table a,
+.admin-products-table button {
+  transition: all 0.5s;
+  color: black;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.admin-products-table a {
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.MuiDataGrid-columnHeader div {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  .admin-products-table div {
+    font-size: 3vw;
+  }
+}

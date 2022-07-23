@@ -1,0 +1,14 @@
+.update-user-button {
+  border: none;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 0.9rem 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  text-align: center;
+}
+
+.update-user-button:hover {
+  background: black;
+}

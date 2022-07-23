@@ -1,0 +1,145 @@
+.create-product-container {
+  width: 100%;
+  box-sizing: border-box;
+  border-left: 1px solid rgba(0, 0, 0, 0.158);
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+}
+.create-product-container h1 {
+  color: rgba(0, 0, 0, 0.733);
+  font-size: 2rem;
+  text-align: center;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+.create-product-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 3vmax;
+  justify-content: space-evenly;
+  height: 70%;
+  width: 40vh;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+  gap: 10px;
+}
+
+.create-product-form > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.create-product-form > div > input,
+.create-product-form > div > select,
+.create-product-form > div > textarea {
+  padding: 1vmax 4vmax;
+  padding-right: 1vmax;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 0.9vmax;
+  outline: none;
+  font-weight: bold;
+}
+
+.create-product-form > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.create-product-images-upload > input {
+  display: flex;
+  padding: 0%;
+}
+
+.create-product-images-upload > input::file-selector-button {
+  cursor: pointer;
+  width: 100%;
+  z-index: 2;
+  height: 5vh;
+  border: none;
+  margin: 0;
+  font: 0.8vmax;
+  transition: all 0.5s;
+  padding: 0 1vmax;
+  color: rgba(0, 0, 0, 0.623);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.create-product-images-upload > input::file-selector-button:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.create-product-image {
+  width: 100%;
+  overflow: auto;
+}
+
+.create-product-image > img {
+  width: 8vmax;
+  margin: 2vmax 0.5vmax;
+  height: 6vmax;
+}
+.create-product-button {
+  border: none;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  padding: 0.1rem 0.8rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 100ms ease-in-out;
+  text-align: center;
+  width: 70%;
+  height: 20%;
+}
+
+.create-product-button:hover {
+  background: black;
+}
+
+@media screen and (max-width: 600px) {
+  .create-product-container {
+    background-color: rgb(255, 255, 255);
+    height: 180vh;
+  }
+  .create-product-form {
+    padding: 5vmax;
+    /* gap: 1px; */
+  }
+
+  .create-product-form > div > input,
+  .create-product-form > div > select,
+  .create-product-form > div > textarea {
+    padding: 2.5vmax 5vmax;
+    font-size: 1.7vmax;
+  }
+
+  .create-product-form > div > svg {
+    font-size: 2.8vmax;
+  }
+
+  .create-product-image > img {
+    width: 20vmax;
+  }
+
+  .create-product-images-upload > input::file-selector-button {
+    height: 7vh;
+    font-size: 1.8vmax;
+  }
+
+  .create-product-button {
+    font-size: 1.5rem;
+    padding: 0rem;
+    height: 6%;
+  }
+}
