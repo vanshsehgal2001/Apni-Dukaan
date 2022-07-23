@@ -6,8 +6,8 @@
 
 **FRONTEND LIBRARIES**
 
--> ReactJs
--> react-icons
+1. ReactJs
+2. react-icons
 -> redux and react-redux for state management
 -> Material UI Library
 -> react router dom
