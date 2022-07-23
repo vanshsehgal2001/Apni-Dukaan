@@ -8,24 +8,24 @@
 
 1. ReactJs
 2. react-icons
--> redux and react-redux for state management
--> Material UI Library
--> react router dom
--> Razorpay payment gateway
--> chartjs and react chartjs
--> react-custom-alert
--> react-rating-stars-component
--> react-moment
--> react-simple-image-slider
--> react-js-pagination
+3. redux and react-redux for state management
+4. Material UI Library
+5. react router dom
+6. Razorpay payment gateway
+7. chartjs and react chartjs
+8. react-custom-alert
+9. react-rating-stars-component
+10. react-moment
+11. react-simple-image-slider
+12. react-js-pagination
 
 **BACKEND LIBRARIES**
 
--> NodeJs
--> ExpressJs
--> cloudinary for uploading images on cloud storage
--> jsonwebtoken for user authentication
--> nodemailer for sending emails for forgot password
--> mongoose for database connectivity
+1. NodeJs
+2. ExpressJs
+3. cloudinary for uploading images on cloud storage
+4. jsonwebtoken for user authentication
+5. nodemailer for sending emails for forgot password
+6. mongoose for database connectivity
 
 **DATABASE :** MONGODB
