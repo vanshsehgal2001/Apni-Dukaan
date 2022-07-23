@@ -27,7 +27,12 @@ const categories = [
     "AC",
     "Furniture",
     "Desktops",
-    "Camera"
+    "Camera",
+    "Artifacts",
+    "Shorts",
+    "Pyjamas",
+    "Glasses",
+    "Microwave"
 ];
 
 const style = {

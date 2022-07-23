@@ -46,7 +46,12 @@ const UpdateProduct = () => {
         "AC",
         "Furniture",
         "Desktops",
-        "Camera"
+        "Camera",
+        "Artifacts",
+        "Shorts",
+        "Pyjamas",
+        "Glasses",
+        "Microwave"
     ];
 
     useEffect(() => {

@@ -29,12 +29,25 @@ const CreateProduct = () => {
 
     const categories = [
         "Laptop",
-        "Footwear",
-        "Bottom",
-        "Tops",
-        "Attire",
+        "TV",
+        "Refrigerator",
+        "Phone",
+        "Headphones",
+        "Earphones",
+        "Shirts",
+        "Jeans",
+        "Pants",
+        "Shoes",
+        "Belts",
+        "AC",
+        "Furniture",
+        "Desktops",
         "Camera",
-        "SmartPhones",
+        "Artifacts",
+        "Shorts",
+        "Pyjamas",
+        "Glasses",
+        "Microwave"
     ];
 
     useEffect(() => {
